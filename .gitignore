@@ -1,0 +1,3 @@
+# Ignore all database and parquet files
+*.db
+*.parquet
