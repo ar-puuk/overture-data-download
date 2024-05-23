@@ -150,7 +150,7 @@ overture_data <- function(bbox, overture_type, dst_parquet) {
 # Download Parquet Data
 # -------------------------------------
 
-albany_bbox
+albany_bbox # Format: xmin, ymin, xmax, ymax
 
 overture_data(albany_bbox, "place", "albany_places_subset.parquet")
 
